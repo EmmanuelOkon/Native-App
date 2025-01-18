@@ -5,12 +5,12 @@ export default function Index() {
   return (
     <View
       style={{
-        flex: 1,
+        // flex: 1,
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text className="font-bold text-lg my-10 text-sky-600">Welcome Home </Text>
+      <Text className="font-bold text-3xl my-10 text-sky-600 font-rubik ">Welcome Home </Text>
       <Link href="/sign-in">Sign In </Link>
       <Link href="/explore">Explore </Link>
       <Link href="/profile">Profile</Link>
